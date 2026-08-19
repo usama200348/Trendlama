@@ -1,6 +1,16 @@
+import Image from "next/image"
+
 const Homepage = () => {
   return (
-    <div className='bg-red-500'>Homepage</div>
+    <div className=''>
+    <div className="relative aspect-[3/1] mb-12">
+      <Image
+      src="/featured.png"
+      alt="Featured Image"
+      fill
+      />
+    </div>
+    </div>
   )
 }
 
